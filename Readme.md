@@ -17,3 +17,5 @@ Welcome to the Restaurant Food Ordering Website GitHub repository! This web-base
 ## Technologies
 
 **Frontend:** HTML, CSS, JavaScript, React
+
+**Database:** MongoDB
