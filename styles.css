@@ -1,0 +1,238 @@
+/* Reset some styles */
+body, h1, h2, p, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the header */
+header {
+	background-color: #333;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Style the banner */
+#banner {
+	background-image: url('banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+#banner h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#banner p {
+	font-size: 24px;
+	margin-bottom: 40px;
+	max-width: 500px;
+}
+
+#banner .button {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 24px;
+	margin-top: 20px;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+}
+
+#banner .button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Style the categories section */
+#categories {
+	background-color: #f2f2f2;
+	padding: 40px 20px;
+	text-align: center;
+}
+
+#categories h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+#categories ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+#categories li {
+	flex-basis: calc(33.33% - 20px);
+	margin-bottom: 20px;
+}
+
+#categories li:nth-child(3n+4) {
+	margin-left: 0;
+}
+
+#categories a {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 24px;
+	transition: background-color 0.3s ease;
+}
+
+#categories a:hover {
+	background-color: #444;
+}
+
+/* Style the popular section */
+#popular {
+	background-color: #f2f2f2;
+	padding: 40px 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#popular h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+#popular ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+#popular li {
+	flex-basis: calc(25% - 20px);
+	margin-bottom: 20px;
+}
+
+#popular li:nth-child(5n+6) {
+	margin-left: 0;
+}
+
+#popular a {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 24px;
+	transition: background-color 0.3s ease;
+}
+
+#popular a:hover {
+	background-color: #444;
+}
+
+/* Style the popular tags section */
+#popular-tags {
+	background-color: #f2f2f2;
+	padding: 40px 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#popular-tags h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+#popular-tags ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+#popular-tags li {
+	flex-basis: calc(20% - 20px);
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+#popular-tags li:nth-child(5n+6) {
+	margin-right: 0;
+}
+
+#popular-tags a {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+#popular-tags a:hover {
+	background-color: #444;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+	header {
+		flex-direction: column;
+	}
+
+	nav ul {
+		flex-direction: column;
+	}
+
+	nav ul li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	#categories li, #popular li {
+		flex-basis: calc(50% - 20px);
+	}
+
+	#popular-tags li {
+		flex-basis: calc(25% - 20px);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#categories li, #popular li {
+		flex-basis: 100%;
+	}
+
+	#popular-tags li {
+		flex-basis: calc(50% - 20px);
+	}
+}
