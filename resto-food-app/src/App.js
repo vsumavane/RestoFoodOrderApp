@@ -1,14 +1,14 @@
 import './App.css';
-import Navbar from './Components/navbar';
+import SlidingImages from './Components/Homepage/SlidingImages';
+import Catalog from './Components/Homepage/bestseller_catalog';
+import Navbar from './Components/Homepage/navbar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="main-content">
-        <h1>Welcome to the Resto Food App</h1>
-        <p>Order your favorite food online!</p>
-      </div>
+      <SlidingImages />
+      <Catalog />
     </div>
   );
 }

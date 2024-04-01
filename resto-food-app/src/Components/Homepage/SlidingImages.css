@@ -1,0 +1,11 @@
+.slider-container {
+    background-color: #87A922;
+    max-width: auto; /* Adjust width as needed */
+    margin: auto;
+    height: 100vh;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: 90vh;
+  }  
