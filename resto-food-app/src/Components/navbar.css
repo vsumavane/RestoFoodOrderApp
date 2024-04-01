@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #114232;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+  }
+  
+  .order-button {
+    border: none;
+    background-color: #66cdaa;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #228b22;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-button {
+    border: none;
+    background-color: #66cdaa;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: #228b22;
+  }
+  
