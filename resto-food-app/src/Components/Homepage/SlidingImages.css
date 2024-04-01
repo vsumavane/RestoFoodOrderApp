@@ -5,7 +5,14 @@
     height: 100vh;
   }
   
-  .slick-slide img {
-    width: 100%;
-    height: 90vh;
+/* .slick-dots {
+      display: none !important;
+    } */
+
+.slick-slide img {
+    width: auto;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
   }  

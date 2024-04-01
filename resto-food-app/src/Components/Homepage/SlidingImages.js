@@ -19,13 +19,13 @@ const SlidingImages = () => {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <img src="image1.jpg" alt="Slide 1" />
+          <img src="https://i.ibb.co/k3tZS9H/Pav-bhaji.png" alt="Slide 1" />
         </div>
         <div>
-          <img src="assets" alt="Slide 2" />
+          <img src="https://i.ibb.co/TbHw0hz/Vada-pav-Fast-food.png" alt="Slide 2" />
         </div>
         <div>
-          <img src="image3.jpg" alt="Slide 3" />
+          <img src="https://i.ibb.co/PGnSj3k/Sweet.png" alt="Slide 3" />
         </div>
         {/* Add more slides as needed */}
       </Slider>
