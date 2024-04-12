@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import { useAuth } from '../../hooks/useAuth';
 import NotFound from '../NotFound/NotFound';
 import AuthRoute from '../AuthRoute/AuthRoute';
